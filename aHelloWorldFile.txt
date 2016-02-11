@@ -1,3 +1,35 @@
-This is a file. Hello World!
+By Tyler Stone.
 
-Another intelligent thing.
+Basic Git Commands
+
+##INIT
+git init
+
+##COMMIT
+git add .
+git commit -m “message”
+
+##REMOTE CONNECTION TO GITHUB
+git remote add <nameRemoteRepPointer> <url>
+git remote -v
+
+##BRANCHING
+git branch <newBranchName>
+git checkout <newBranchName>
+..or..
+git checkout -b <newBranchName>
+
+..Do changes here.. >> Updated Files!
+
+git checkout master
+git merge <newBranchName>
+
+git branch -d <newBranchName>
+
+##PULLING, FETCHING, and PUSHING
+git fetch <nameRemoteRepPointer> <branch>
+??git merge??
+..or..
+git pull <nameRemoteRepPointer> <branch>
+
+git push <nameRemoteRepPointer> <branch>

@@ -12,6 +12,7 @@ git add .
 git commit -m “message”
 
 
+<<<<<<< HEAD
 ##REMOTE CONNECTION TO GITHUB
 ———create pointer to remote repository (github)
 git remote add <nameRemoteRepPointer> <url>
@@ -45,5 +46,12 @@ git push <remote> <local branch name>:<remote branch to push into> **<Assumes sa
 ##RESETTING
 ———get commit history information (key)
 git log
+=======
+
+>>>>>>> testRep/master
 ———reset to historic commit
 git reset —hard <CommitKey> **<2 - before hard>**
+
+
+
+YOU SCREWED EVERYTHING UP, JIMMY!

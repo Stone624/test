@@ -12,37 +12,10 @@ git add .
 git commit -m “message”
 
 
-##REMOTE CONNECTION TO GITHUB
-———create pointer to remote repository (github)
-git remote add <nameRemoteRepPointer> <url>
-———View remote repository (github) pointers
-git remote -v
-———Remote clone checkout — Creates new folder with contents inside.
-git clone <url>
 
-
-##BRANCHING
-———create and switch to branch
-git branch <newBranchName>;git checkout <newBranchName>
-git checkout -b <newBranchName>
-..Do changes here.. >> Updated Files!
-———merge back into master
-git checkout master;git merge <newBranchName>
-———delete branch
-git branch -d <newBranchName>
-
-
-##PULLING, FETCHING, and PUSHING
-———fetch and merge
-git fetch <nameRemoteRepPointer> <branch>
-git merge
-..or..
-git pull <nameRemoteRepPointer> <branch>
-———push to remote repository (github)
-git push <nameRemoteRepPointer> <branch>
-
-##RESETTING
-———get commit history information (key)
-git log
 ———reset to historic commit
 git reset —hard <CommitKey> **<2 - before hard>**
+
+
+
+YOU SCREWED EVERYTHING UP, JIMMY!

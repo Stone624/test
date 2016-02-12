@@ -40,6 +40,7 @@ git merge
 git pull <nameRemoteRepPointer> <branch>
 ———push to remote repository (github)
 git push <nameRemoteRepPointer> <branch>
+git push <remote> <local branch name>:<remote branch to push into> **<Assumes same>**
 
 ##RESETTING
 ———get commit history information (key)

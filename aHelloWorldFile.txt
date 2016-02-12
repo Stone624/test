@@ -17,6 +17,8 @@ git commit -m “message”
 git remote add <nameRemoteRepPointer> <url>
 ———View remote repository (github) pointers
 git remote -v
+———Remote clone checkout — Creates new folder with contents inside.
+git clone <url>
 
 
 ##BRANCHING
@@ -38,3 +40,9 @@ git merge
 git pull <nameRemoteRepPointer> <branch>
 ———push to remote repository (github)
 git push <nameRemoteRepPointer> <branch>
+
+##RESETTING
+———get commit history information (key)
+git log
+———reset to historic commit
+git reset —hard <CommitKey> **<2 - before hard>**

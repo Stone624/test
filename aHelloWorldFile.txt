@@ -1,35 +1,40 @@
 By Tyler Stone.
-
 Basic Git Commands
 
 ##INIT
+———initialise local repostory
 git init
 
+
 ##COMMIT
+———add and commit all files
 git add .
 git commit -m “message”
 
+
 ##REMOTE CONNECTION TO GITHUB
+———create pointer to remote repository (github)
 git remote add <nameRemoteRepPointer> <url>
+———View remote repository (github) pointers
 git remote -v
 
+
 ##BRANCHING
-git branch <newBranchName>
-git checkout <newBranchName>
-..or..
+———create and switch to branch
+git branch <newBranchName>;git checkout <newBranchName>
 git checkout -b <newBranchName>
-
 ..Do changes here.. >> Updated Files!
-
-git checkout master
-git merge <newBranchName>
-
+———merge back into master
+git checkout master;git merge <newBranchName>
+———delete branch
 git branch -d <newBranchName>
 
+
 ##PULLING, FETCHING, and PUSHING
+———fetch and merge
 git fetch <nameRemoteRepPointer> <branch>
-??git merge??
+git merge
 ..or..
 git pull <nameRemoteRepPointer> <branch>
-
+———push to remote repository (github)
 git push <nameRemoteRepPointer> <branch>

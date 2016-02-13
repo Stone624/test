@@ -43,8 +43,24 @@ git pull <nameRemoteRepPointer> <branch>
 git push <nameRemoteRepPointer> <branch>
 git push <remote> <local branch name>:<remote branch to push into> **<Assumes same>**
 
+
 ##RESETTING
 ———get commit history information (key)
 git log
 ———reset to historic commit
 git reset —hard <CommitKey> **<2 - before hard>**
+
+
+#####################
+####File > Remote####
+#####################
+
+1. Create Remote repository in github > Copy link
+2. git init
+3. git add .
+4. git commit -m “Initial Commit”
+5. git remote add origin <url>
+6. git fetch origin master
+7. git merge origin/master master
+8. git push origin master
+

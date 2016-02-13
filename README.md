@@ -1,10 +1,7 @@
 # test
 Testing Github
 
-<<<<<<< HEAD
-Something intelligent change goes here:
-=======
-Something intelligent goes here:
->>>>>>> testRep/master
 
+Something intelligent goes here:
+=======
 x=[-b+-(b^2-4ac)^(1/2)]/(2a)
